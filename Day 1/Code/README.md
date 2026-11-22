@@ -1,61 +1,51 @@
-Java Learning – Day 1
+# ☕ Java Backend Development Journey
 
-About This Project
+> "A journey of a thousand miles begins with a single step." — Tracking my progress in mastering Java for backend development.
 
-This project is created to learn Java programming from the basics and develop skills for Java Backend Development.
+## 📖 About This Project
+This repository documents my learning journey in Java programming, starting from the absolute basics and progressing towards building robust backend applications. Each day's concepts, notes, and practical exercises are logged here to track my growth and share my learning process.
 
-Concepts Learned Today
+---
 
-1. JDK (Java Development Kit)
+## 📅 Day 1: Java Fundamentals & Variables
 
-- Used to develop Java applications.
-- Contains development tools such as the Java compiler ("javac").
+### 🧠 Concepts Learned
 
-2. JRE (Java Runtime Environment)
+#### 1. The Java Ecosystem
+Understanding the core components that make Java work:
 
-- Provides the environment and libraries required to run Java applications.
-- Traditionally includes the JVM.
+* **🛠️ JDK (Java Development Kit):** Used to develop Java applications. Contains essential development tools such as the Java compiler (`javac`).
+* **⚙️ JRE (Java Runtime Environment):** Provides the environment and libraries required to run Java applications. Traditionally includes the JVM.
+* **🖥️ JVM (Java Virtual Machine):** Executes Java bytecode. It is the magic behind Java's platform independence, helping Java programs run seamlessly on different operating systems.
 
-3. JVM (Java Virtual Machine)
+#### 2. Java Variables & Data Types
+Variables are containers used to store and manage data in a Java program. Today, I learned how to declare and use the following fundamental data types:
 
-- Executes Java bytecode.
-- Helps Java programs run on different operating systems.
+| Data Type | Description | Example |
+| :--- | :--- | :--- |
+| `int` | Stores whole numbers (integers). | `int age = 25;` |
+| `String` | Stores text (sequences of characters). | `String name = "Java";` |
+| `double` | Stores decimal numbers (floating-point). | `double salary = 75000.50;` |
+| `boolean` | Stores logical values (`true` or `false`). | `boolean isActive = true;` |
 
-4. Java Variables
+### 🛠️ Practical Exercises
 
-Variables are used to store and manage data in a Java program.
+**1. Hello World!** 🌍
+Created and executed my very first Java program: `HelloWorld.java`.
 
-Today I learned these data types:
+**2. Employee Information System** 👨‍💻
+Practiced declaring variables and printing employee information to the console.
 
-int      :Stores whole numbers
-
-String   :Stores text
-
-double   :Stores decimal numbers
-
-boolean  :Stores true or false values
-
-Practical Exercise
-
-Created my first Java program: "HelloWorld.java"
-
-Practised declaring and printing employee information:
-
-- Employee ID – "int"
-- Employee Name – "String"
-- Employee Salary – "double"
-- Employee Active Status – "boolean"
-
-Today's Achievement
-
-- [x] Created my first Java project.
-- [x] Created and executed HelloWorld.java.
-- [x] Understood JDK, JRE, and JVM.
-- [x] Learned Java variables and data types.
-- [x] Practised printing variable values using "System.out.println()".
-
-Next Learning Goal
-
-Continue learning Core Java concepts and practise coding every day.
-
-Goal: Become a Java Backend Developer.
+```java
+public class EmployeeInfo {
+    public static void main(String[] args) {
+        // Declaring variables based on Day 1 concepts
+        int employeeId = 1042;
+        String employeeName = "John Doe";
+        
+        // Printing the information to the console
+        System.out.println("--- Employee Details ---");
+        System.out.println("Employee ID: " + employeeId);
+        System.out.println("Employee Name: " + employeeName);
+    }
+}
