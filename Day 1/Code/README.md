@@ -27,11 +27,13 @@ Variables are used to store and manage data in a Java program.
 
 Today I learned these data types:
 
-Data Type           | Purpose
-int                 | Stores whole numbers
-String              | Stores text
-double              | Stores decimal numbers
-boolean             | Stores true or false values
+int      :Stores whole numbers
+
+String   :Stores text
+
+double   :Stores decimal numbers
+
+boolean  :Stores true or false values
 
 Practical Exercise
 
